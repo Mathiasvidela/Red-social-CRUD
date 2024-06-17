@@ -29,6 +29,7 @@ a:link{
     gap: .5rem;
     font-weight: 300;
     text-decoration: none;
+    color: #F0F5F9;
 }
 .link:hover{
     cursor: pointer;
@@ -68,13 +69,13 @@ a:link{
 .gray{
     border: none;
     background-color:#788189;
-    color: #1E2022;
+    color: #F0F5F9;
     transition: all .3s ease;
     cursor: pointer;
 }
 .gray:hover{
     transform: scale(1.01);
-    background-color: #788189;
+    background-color: #34373b;
     color: #F0F5F9;
 }
 form{
