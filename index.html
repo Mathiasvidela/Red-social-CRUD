@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>X-social</title>
+</head>
+<body>
+<header>
+    <nav class="nav-bar">
+        <p class="logo">X-SOCIAL</p>
+        <a href="https://github.com/Mathiasvidela" class="link">
+
+                <i class="ri-github-fill"></i>
+                <p>My Github</p>
+
+        </a>
+    </nav>
+</header>
+<h1 class="home container">Home</h1>
+    <section class="container post">
+        <h2>Postear</h2>
+        <form id="postForm" onsubmit="event.preventDefault(); postData()">
+            <input type="text" placeholder="Title" id="postTitle" required>
+            <textarea type="text" placeholder="What are you thinking?" id="postBody" required></textarea>
+            <button type="submit" class="btn black">Send</button>
+        </form>
+
+        <h2>All posts</h2>
+        <ul id="postList"></ul>
+    
+    </section>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
